@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+body{
+    background: rgb(64,37,255);
+    background: linear-gradient(90deg, rgba(64,37,255,0.978448275862069) 0%, rgba(113,99,255,1) 0%, rgba(70,27,255,1) 100%);
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1 span{
+    color: aqua;
+}
+.main{
+    width:400px;
+    height:80px;
+    margin-left: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+input{
+    font-size: 25px;
+    font-family: 'Assistant', sans-serif;
+    border: 1px solid rgb(255, 217, 5);
+}
+button{
+    font-size:25px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;   
+}
+p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
